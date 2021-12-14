@@ -4,7 +4,8 @@
   "description": "A URL Shortener Service",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "deploy-cloud": "scp -r url-shortener.tar.gz deploy@102.220.85.1:./"
   },
   "keywords": [
     "Node.js",
